@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def index(request):
     return render(request,'index.html',{'nombre': "Alonso"})
+
+def login(request):
+    return render(request,'login.html',{})
+
