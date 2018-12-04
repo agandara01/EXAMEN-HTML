@@ -49,10 +49,16 @@ body{
     content: "\f023";
 }
 
+.form-group#email-group::before{
+    content: "\f1fa";
+}
+
+
 button{
     margin-top: 10px;
     width: 80%;
     margin: 5px 0 25px;
+    
 }
 
 .forgot{
